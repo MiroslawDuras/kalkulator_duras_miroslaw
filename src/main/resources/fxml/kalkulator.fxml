@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ib.Controller">
+   <children>
+      <GridPane gridLinesVisible="true" layoutY="88.0" prefHeight="272.0" prefWidth="307.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="buttonClear" mnemonicParsing="false" onAction="#clearPressed" prefHeight="68.0" prefWidth="77.0" text="C">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.71" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonPlusMinus" mnemonicParsing="false" onAction="#plusminusPressed" prefHeight="68.0" prefWidth="77.0" text="+/-" GridPane.columnIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.71" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonPercent" mnemonicParsing="false" onAction="#percentPressed" prefHeight="68.0" prefWidth="77.0" text="\%" GridPane.columnIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.71" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonSeven" mnemonicParsing="false" onAction="#sevenPressed" prefHeight="68.0" prefWidth="77.0" text="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonEight" mnemonicParsing="false" onAction="#eightPressed" prefHeight="68.0" prefWidth="77.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonFive" mnemonicParsing="false" onAction="#fivePressed" prefHeight="68.0" prefWidth="77.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonNine" mnemonicParsing="false" onAction="#ninePressed" prefHeight="68.0" prefWidth="77.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonX" mnemonicParsing="false" onAction="#xPressed" prefHeight="68.0" prefWidth="77.0" text="x" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust hue="0.12" saturation="0.74" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonSix" mnemonicParsing="false" onAction="#sixPressed" prefHeight="68.0" prefWidth="77.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="68.0" prefWidth="77.0" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="buttonPlus" mnemonicParsing="false" onAction="#plusPressed" prefHeight="68.0" prefWidth="77.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust hue="0.12" saturation="0.74" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonthree" mnemonicParsing="false" onAction="#threePressed" prefHeight="68.0" prefWidth="77.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttontwo" mnemonicParsing="false" onAction="#twoPressed" prefHeight="68.0" prefWidth="77.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonFour" mnemonicParsing="false" onAction="#fourPressed" prefHeight="68.0" prefWidth="77.0" text="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonOne" mnemonicParsing="false" onAction="#onePressed" prefHeight="68.0" prefWidth="77.0" text="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonMinus" mnemonicParsing="false" onAction="#minusPressed" prefHeight="68.0" prefWidth="77.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust hue="0.12" saturation="0.74" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonDivide" mnemonicParsing="false" onAction="#dividePressed" prefHeight="68.0" prefWidth="77.0" text=":" GridPane.columnIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust hue="0.12" saturation="0.74" />
+               </effect>
+            </Button>
+         </children>
+      </GridPane>
+      <GridPane gridLinesVisible="true" layoutY="360.0" prefHeight="68.0" prefWidth="307.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="157.0" minWidth="10.0" prefWidth="153.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="77.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="77.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="89.0" minHeight="10.0" prefHeight="89.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="29.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="24.0" minHeight="1.0" prefHeight="1.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="buttonPeriod" mnemonicParsing="false" onAction="#periodPressed" prefHeight="68.0" prefWidth="77.0" text="." GridPane.columnIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonEqual" mnemonicParsing="false" onAction="#equalPressed" prefHeight="68.0" prefWidth="77.0" text="=" GridPane.columnIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust hue="0.12" saturation="0.74" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonZero" mnemonicParsing="false" onAction="#zeroPressed" prefHeight="67.0" prefWidth="153.0" text="0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.24" />
+               </effect>
+            </Button>
+         </children>
+      </GridPane>
+      <TextField fx:id="screen" alignment="CENTER_RIGHT" onAction="#screenview" prefHeight="91.0" prefWidth="307.0">
+         <effect>
+            <ColorAdjust brightness="-0.71" />
+         </effect>
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
